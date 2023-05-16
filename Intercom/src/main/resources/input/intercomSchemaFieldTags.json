@@ -1,0 +1,28 @@
+{
+	"schemaFields": [
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "type",
+			"isNullable": true,
+			"isRepeated": false
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "id",
+			"isNullable": true,
+			"isRepeated": false
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "name",
+			"isNullable": true,
+			"isRepeated": false
+		}
+	]
+}

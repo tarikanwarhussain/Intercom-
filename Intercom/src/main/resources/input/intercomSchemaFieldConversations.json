@@ -1,0 +1,116 @@
+{
+	"schemaFields": [
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "created_at",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "waiting_since",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "id",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "sla_applied",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "custom_attributes",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "updated_at",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "id",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "conversation_rating",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "admin_assignee_id",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "team_assignee_id",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "url",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "redeemed_points",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "awarded_points",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "pending_points",
+			"isNullable": true,
+			"isRepeated": true
+		}
+	]
+}

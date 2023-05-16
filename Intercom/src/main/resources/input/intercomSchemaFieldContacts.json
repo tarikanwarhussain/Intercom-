@@ -1,0 +1,525 @@
+{
+	"schemaFields": [
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "type",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "id",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "workspace_id",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "external_id",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "role",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "email",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "phone",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "name",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "avatar",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "int64",
+			"subfields": null,
+			"systemType": "integer",
+			"fieldName": "owner_id",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "list",
+			"subfields": [
+				{
+					"coreType": "String",
+					"subfields": null,
+					"systemType": "string",
+					"fieldName": "type",
+					"isNullable": true,
+					"isRepeated": true
+				},
+				{
+					"coreType": "String",
+					"subfields": null,
+					"systemType": "string",
+					"fieldName": "name",
+					"isNullable": true,
+					"isRepeated": true
+				},
+				{
+					"coreType": "String",
+					"subfields": null,
+					"systemType": "string",
+					"fieldName": "url",
+					"isNullable": true,
+					"isRepeated": true
+				}
+			],
+			"systemType": "list",
+			"fieldName": "social_profiles",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Bool",
+			"subfields": null,
+			"systemType": "boolean",
+			"fieldName": "has_hard_bounced",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Bool",
+			"subfields": null,
+			"systemType": "boolean",
+			"fieldName": "marked_email_as_spam",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Bool",
+			"subfields": null,
+			"systemType": "boolean",
+			"fieldName": "unsubscribed_from_emails",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Date",
+			"subfields": null,
+			"systemType": "date (UNIX timestamp)",
+			"fieldName": "created_at",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Date",
+			"subfields": null,
+			"systemType": "date (UNIX timestamp)",
+			"fieldName": "updated_at",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Date",
+			"subfields": null,
+			"systemType": "date (UNIX timestamp)",
+			"fieldName": "signed_up_at",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Date",
+			"subfields": null,
+			"systemType": "date (UNIX timestamp)",
+			"fieldName": "last_seen_at",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Date",
+			"subfields": null,
+			"systemType": "date (UNIX timestamp)",
+			"fieldName": "last_replied_at",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Date",
+			"subfields": null,
+			"systemType": "date (UNIX timestamp)",
+			"fieldName": "last_contacted_at",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Date",
+			"subfields": null,
+			"systemType": "date (UNIX timestamp)",
+			"fieldName": "last_email_opened_at",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Date",
+			"subfields": null,
+			"systemType": "date (UNIX timestamp)",
+			"fieldName": "last_email_clicked_at",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "String",
+			"fieldName": "language_override",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "list",
+			"fieldName": "social_profiles",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Bool",
+			"subfields": null,
+			"systemType": "boolean",
+			"fieldName": "has_hard_bounced",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Bool",
+			"subfields": null,
+			"systemType": "boolean",
+			"fieldName": "marked_email_as_spam",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Bool",
+			"subfields": null,
+			"systemType": "boolean",
+			"fieldName": "unsubscribed_from_emails",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Date",
+			"subfields": null,
+			"systemType": "Date (UNIX timestamp)",
+			"fieldName": "created_at",
+			"isNullable": true,
+			"isRepeated": true
+		},{
+			"coreType": "Date",
+			"subfields": null,
+			"systemType": "Date (UNIX timestamp)",
+			"fieldName": "updated_at",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Date",
+			"subfields": null,
+			"systemType": "Date (UNIX timestamp)",
+			"fieldName": "signed_up_at",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Date",
+			"subfields": null,
+			"systemType": "Date (UNIX timestamp)",
+			"fieldName": "last_seen_at",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Date",
+			"subfields": null,
+			"systemType": "Date (UNIX timestamp)",
+			"fieldName": "last_replied_at",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Date",
+			"subfields": null,
+			"systemType": "Date (UNIX timestamp)",
+			"fieldName": "last_contacted_at",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Date",
+			"subfields": null,
+			"systemType": "Date (UNIX timestamp)",
+			"fieldName": "last_email_opened_at",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Date",
+			"subfields": null,
+			"systemType": "Date (UNIX timestamp)",
+			"fieldName": "last_email_clicked_at",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "language_override",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "string",
+			"fieldName": "browser",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "int64",
+			"subfields": null,
+			"systemType": "integer",
+			"fieldName": "browser_version",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "list",
+			"subfields": null,
+			"systemType": "list",
+			"fieldName": "browser_language",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "String",
+			"subfields": null,
+			"systemType": "String",
+			"fieldName": "os",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Object",
+			"subfields": [
+				{
+					"coreType": "String",
+					"subfields": null,
+					"systemType": "String",
+					"fieldName": "type",
+					"isNullable": true,
+					"isRepeated": true
+				},
+				{
+					"coreType": "String",
+					"subfields": null,
+					"systemType": "String",
+					"fieldName": "country",
+					"isNullable": true,
+					"isRepeated": true
+				},
+				{
+					"coreType": "String",
+					"subfields": null,
+					"systemType": "String",
+					"fieldName": "region",
+					"isNullable": true,
+					"isRepeated": true
+				},
+				{
+					"coreType": "String",
+					"subfields": null,
+					"systemType": "String",
+					"fieldName": "city",
+					"isNullable": true,
+					"isRepeated": true
+				}
+			],
+			"systemType": "Object",
+			"fieldName": "location",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "string",
+			"subfields": null,
+			"systemType": "String",
+			"fieldName": "android_app_name",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "String",
+			"subfields": null,
+			"systemType": "String",
+			"fieldName": "android_app_version",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "String",
+			"subfields": null,
+			"systemType": "String",
+			"fieldName": "android_device",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "String",
+			"subfields": null,
+			"systemType": "String",
+			"fieldName": "android_os_version",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "String",
+			"subfields": null,
+			"systemType": "String",
+			"fieldName": "android_sdk_version",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "date",
+			"subfields": null,
+			"systemType": "Date (UNIX timestamp)",
+			"fieldName": "android_last_seen_at",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "String",
+			"subfields": null,
+			"systemType": "String",
+			"fieldName": "ios_app_name",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "String",
+			"subfields": null,
+			"systemType": "String",
+			"fieldName": "ios_app_version",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "String",
+			"subfields": null,
+			"systemType": "String",
+			"fieldName": "ios_device",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "String",
+			"subfields": null,
+			"systemType": "String",
+			"fieldName": "ios_os_version",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "String",
+			"subfields": null,
+			"systemType": "String",
+			"fieldName": "ios_sdk_version",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Date",
+			"subfields": null,
+			"systemType": "Date (UNIX timestamp)",
+			"fieldName": "ios_last_seen_at",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "String",
+			"subfields": null,
+			"systemType": "String",
+			"fieldName": "ios_os_version",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "Object",
+			"subfields": null,
+			"systemType": "Object",
+			"fieldName": "custom_attributes",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "list",
+			"subfields": null,
+			"systemType": "Addressable List",
+			"fieldName": "tags",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "List",
+			"subfields": null,
+			"systemType": "Addressable List",
+			"fieldName": "notes",
+			"isNullable": true,
+			"isRepeated": true
+		},
+		{
+			"coreType": "List",
+			"subfields": null,
+			"systemType": "Addressable List",
+			"fieldName": "companies",
+			"isNullable": true,
+			"isRepeated": true
+		}
+	]
+}
